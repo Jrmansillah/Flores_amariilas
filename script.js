@@ -11,9 +11,11 @@ petals.forEach(petal => {
 
 // Obtén el elemento de audio por su id
 const audio = document.getElementById('audio');
+const playButton = document.getElementById('playButton');
 
 // Espera a que la página se cargue completamente
-window.addEventListener('load', () => {
+window.addEventListener('click', () => {
   // Reproduce el audio cuando la página se haya cargado completamente
   audio.play();
+
 });
